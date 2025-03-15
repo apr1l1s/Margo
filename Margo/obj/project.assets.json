@@ -115,166 +115,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.0": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Text.Json/8.0.5": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/System.Text.Json.targets": {}
-        }
-      },
-      "Telegram.Bot/22.5.0-dev.15": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
-          "System.Text.Json": "8.0.5"
-        },
-        "compile": {
-          "lib/net6.0/Telegram.Bot.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Telegram.Bot.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      }
-    },
-    "net9.0/win-x64": {
-      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets": {}
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Options/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Options": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Primitives/8.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.NET.ILLink.Tasks/9.0.0": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
       "System.Text.Json/8.0.5": {
         "type": "package",
         "compile": {
@@ -521,57 +361,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.0": {
-      "sha512": "zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
-      "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "Sdk/Sdk.props",
-        "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
-        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
-        "build/Microsoft.NET.ILLink.Analyzers.props",
-        "build/Microsoft.NET.ILLink.Tasks.props",
-        "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
-        "microsoft.net.illink.tasks.nuspec",
-        "tools/net472/ILLink.Tasks.dll",
-        "tools/net472/ILLink.Tasks.dll.config",
-        "tools/net472/Mono.Cecil.Mdb.dll",
-        "tools/net472/Mono.Cecil.Pdb.dll",
-        "tools/net472/Mono.Cecil.Rocks.dll",
-        "tools/net472/Mono.Cecil.dll",
-        "tools/net472/Sdk/Sdk.props",
-        "tools/net472/System.Buffers.dll",
-        "tools/net472/System.Collections.Immutable.dll",
-        "tools/net472/System.Memory.dll",
-        "tools/net472/System.Numerics.Vectors.dll",
-        "tools/net472/System.Reflection.Metadata.dll",
-        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
-        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
-        "tools/net472/build/Microsoft.NET.ILLink.targets",
-        "tools/net9.0/ILLink.Tasks.deps.json",
-        "tools/net9.0/ILLink.Tasks.dll",
-        "tools/net9.0/Mono.Cecil.Mdb.dll",
-        "tools/net9.0/Mono.Cecil.Pdb.dll",
-        "tools/net9.0/Mono.Cecil.Rocks.dll",
-        "tools/net9.0/Mono.Cecil.dll",
-        "tools/net9.0/Sdk/Sdk.props",
-        "tools/net9.0/build/Microsoft.NET.ILLink.Analyzers.props",
-        "tools/net9.0/build/Microsoft.NET.ILLink.Tasks.props",
-        "tools/net9.0/build/Microsoft.NET.ILLink.targets",
-        "tools/net9.0/illink.deps.json",
-        "tools/net9.0/illink.dll",
-        "tools/net9.0/illink.runtimeconfig.json",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Text.Json/8.0.5": {
       "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
       "type": "package",
@@ -667,7 +456,6 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
       "Telegram.Bot >= 22.5.0-dev.15"
     ]
   },
@@ -722,12 +510,6 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
-          "Microsoft.NET.ILLink.Tasks": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[9.0.0, )",
-            "autoReferenced": true
-          },
           "Telegram.Bot": {
             "target": "Package",
             "version": "[22.5.0-dev.15, )"
@@ -744,31 +526,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[9.0.0, 9.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[9.0.0, 9.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[9.0.0, 9.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }

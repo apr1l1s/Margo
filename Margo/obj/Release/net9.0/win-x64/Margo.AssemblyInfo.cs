@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Margo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84ef773a865c0aa95ca20377adb91d6be89129dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+987db9e94e7f45865de27616ff9e77747d6a7b33")]
 [assembly: System.Reflection.AssemblyProductAttribute("Margo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Margo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
