@@ -1,0 +1,2 @@
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Release\net9.0\win-x64\publish\Margo.pdb
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Release\net9.0\win-x64\publish\Margo.exe
