@@ -13,3 +13,12 @@ C:\Users\safronov.a\RiderProjects\Margo\Margo\obj\Debug\net9.0\refint\Margo.dll
 C:\Users\safronov.a\RiderProjects\Margo\Margo\obj\Debug\net9.0\Margo.pdb
 C:\Users\safronov.a\RiderProjects\Margo\Margo\obj\Debug\net9.0\Margo.genruntimeconfig.cache
 C:\Users\safronov.a\RiderProjects\Margo\Margo\obj\Debug\net9.0\ref\Margo.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\bin\Debug\net9.0\Telegram.Bot.dll
+C:\Users\safronov.a\RiderProjects\Margo\Margo\obj\Debug\net9.0\Margo.csproj.AssemblyReference.cache
+C:\Users\safronov.a\RiderProjects\Margo\Margo\obj\Debug\net9.0\Margo.csproj.Up2Date
